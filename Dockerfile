@@ -13,6 +13,6 @@ RUN apt-get install -y \
     make \
     zip \
     wget
-RUN wget https://download.jetbrains.com/idea/ideaIC-2019.3.5.tar.gz ideaIC-2019.3.5.tar.gz
+RUN wget https://download.jetbrains.com/idea/ideaIC-2019.3.5.tar.gz
 RUN tar -xvf ideaIC-2019.3.5.tar.gz
 CMD ./idea-IC-193.7288.26/bin/idea.sh
